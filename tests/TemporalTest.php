@@ -20,9 +20,9 @@ class TemporalTest extends TestCase
             'driver'    => 'mysql',
             'database'  => 'testbed',
             'host'  => '127.0.0.1',
-            'port'  => '8891',
-            'username'  => 'root',
-            'password'  => 'root',
+            'port'  => '3306',
+            'username'  => 'homestead',
+            'password'  => 'secret',
         ]);
 
         $db->setEventDispatcher(new Dispatcher(new Container()));
