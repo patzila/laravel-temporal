@@ -2,13 +2,12 @@
 
 namespace Gazugafan\Temporal\Test;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
-abstract class TestCase extends PHPUnit_Framework_TestCase
+abstract class TestCase extends PHPUnitTestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
-
     }
 }
